@@ -1,0 +1,136 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+
+}
+
+.container {
+    width: 115vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    transform: translateY(35%);
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px hsla(183, 100%, 15%, 0.443);
+    gap: 25px;
+
+}
+
+.calcDisplay {
+    width: 51vh;
+    height: 51vh;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(186, 14%, 43%);
+    border-radius: 25px;
+    
+}
+
+.totalDisplay {
+    width: 51vh;
+    height: 51vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 25px;
+
+}
+
+#tipContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 30px 0 30px 0;
+}
+
+
+.tip label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+
+  }
+
+
+.tip input[type="radio"]:checked + label {
+    color:hsl(183, 100%, 15%);
+    background-color: hsl(177, 89%, 44%);
+    transition: none; 
+  }
+
+.tip input[type="radio"] {
+    display: none;
+  }
+
+.tip label:hover {
+    background-color: hsl(25, 97%, 53%);
+    transition: 0.5s background-color;
+}
+
+
+.resetBtn {
+    width: 300px;
+    height: 45px;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(177, 89%, 44%);
+    margin: 33vh 0 0 5vh;
+    cursor: pointer;
+}
+
+.resetBtn:hover {
+    background-color: hsl(180, 100%, 80%);
+    transition: 0.5s background-color;
+}
+
+.selectTitel{
+    margin: 10px 0 -15px 10px;
+}
+
+.numbTitel, .billTitel {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#inputBill, #inputPeople{
+    width: 330px;
+    height: 40px;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(180, 11%, 91%);   
+    text-align: end;
+    padding-right: 10px;
+
+}
+
+
+
+
+
+
+ 

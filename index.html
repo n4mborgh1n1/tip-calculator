@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="calcDisplay">
+        <div class="bill">
+          <p class="billTitel">Bill</p>
+            <input type="text" id="inputBill"></div>      
+            
+
+        <p class="selectTitel">Select Tip %</p>
+        <form class="ratingForm">
+          <div id="tipContainer">
+          <div class="tip">
+            <input type="radio" id="score-1" name="tip" value="5%"/>
+            <label for="score-1">5%</label>
+          </div>          
+          <div class="tip">
+            <input type="radio" id="score-2" name="tip" value="10%"/>
+            <label for="score-2">10%</label>
+          </div>
+          <div class="tip">
+            <input type="radio" id="score-3" name="tip" value="15%"/>
+            <label for="score-3">15%</label>
+          </div>
+          <div class="tip">
+            <input type="radio" id="score-4" name="tip" value="25%"/>
+            <label for="score-4">25%</label>
+          </div>
+          <div class="tip">
+            <input type="radio" id="score-5" name="tip" value="50%"/>
+            <label for="score-5">50%</label>
+          </div>
+          <div class="tip">
+            <input type="radio" id="score-6" name="tip" value="custom"/>
+            <label for="score-6">Custom</label>
+          </div>  
+        </form>  
+      </div>
+
+        <div class="numberPeople">
+          <p class="numbTitel">Number of People</p>
+            <input type="text" id="inputPeople"></div>
+      </div>
+  
+<div class="totalDisplay"> Tip Amount
+  / person
+<div>  Total
+  / person
+</div>
+  
+
+  <button class="resetBtn">Reset</button>
+  
+  
+  </div>
+ 
+  </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
