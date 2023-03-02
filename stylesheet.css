@@ -5,12 +5,11 @@ body {
 }
 
 .logo {
-    position: absolute;
-    margin: 6vh 0 0 90vh;
+    margin: 6vh 0 -11vh 90vh;
 }
 
 main {
-    scale: 90%;
+    transform: scale(0.9);
 }
 
 .container {
@@ -109,71 +108,76 @@ main {
     display: none;
 }
 
+
 .resetBtn {
-width: 20rem;
-height: 2.25rem;
-font-family: 'Space Mono', monospace;
-font-size: 1.25rem;
-text-transform: uppercase;
-color: hsl(183, 100%, 15%);
-border: none;
-border-radius: 0.3125rem;
-background-color: hsl(177, 89%, 44%);
-margin: 11vh 0 0 5vh;
-cursor: pointer;
+    width: 300px;
+    height: 45px;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(177, 89%, 44%);
+    margin: 11vh 0 0 5vh;
+    cursor: pointer;
 }
 
 .resetBtn:hover {
-background-color: hsl(180, 100%, 80%);
-transition: 0.5s background-color;
+    background-color: hsl(180, 100%, 80%);
+    transition: 0.5s background-color;
 }
 
 .selectTitel{
-margin: 0.625rem 0 -0.9375rem 0.625rem;
+    margin: 10px 0 -15px 10px;
 }
 
 .numbTitel, .billTitel {
-margin-left: 0.625rem;
-margin-top: 0.3125rem;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 #inputBill, #inputPeople{
-width: 20.625rem;
-height: 2.5rem;
-font-size: 1.5rem;
-color: hsl(183, 100%, 15%);
-font-family: 'Space Mono', monospace;
-font-weight: 700;
-margin-left: 0.625rem;
-margin-bottom: 1.25rem;
-border: none;
-border-radius: 0.3125rem;
-background-color: hsl(180, 11%, 91%);
-text-align: end;
-padding-right: 0.625rem;
+    width: 330px;
+    height: 40px;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(180, 11%, 91%);   
+    text-align: end;
+    padding-right: 10px;
+
 }
 
 #inputBill:active {
-outline-color: hsl(177, 88%, 40%);
+  outline-color: hsl(177, 88%, 40%);
 }
 
 .iconImg {
-position: relative;
-right: 20rem;
+    position: relative;
+    right: 320px;
 }
 
 .tipValue, .totalValue {
-margin: 3.125rem 0 0.9375rem 1.875rem;
+    margin: 50px 0 15px 30px;
 }
 
 span {
-color: hsl(184, 14%, 56%);
+   color: hsl(184, 14%, 56%);
 }
 
 .error {
-margin: -2.5rem 0 0.9375rem 25rem;
-color: hsl(25, 97%, 53%);
-
+    margin: -40px 0 15px 30vh;
+    color: hsl(25, 97%, 53%);
+    display: non;
 }
 
 
+
+
+ 
