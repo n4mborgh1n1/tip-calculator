@@ -174,7 +174,7 @@ span {
 .error {
     margin: -40px 0 15px 30vh;
     color: hsl(25, 97%, 53%);
-    display: non;
+    display: none;
 }
 
 
