@@ -12,6 +12,7 @@ inputBill.addEventListener('input', () => {
 
   // entferne alle Zeichen außer Zahlen und Punkt
   inputBill.value = billValue.replace(/[^0-9.]/g, '');
+  inputBill.setAttribute('autocomplete', 'off');
 });
 
 const inputPeople = document.getElementById('inputPeople');
@@ -25,4 +26,5 @@ inputPeople.addEventListener('input', () => {
   
   // entferne alle Zeichen außer Zahlen
   inputPeople.value = peopleValue.replace(/[^0-9]/g, '');
+  inputPeople.setAttribute('autocomplete', 'off');
 });
