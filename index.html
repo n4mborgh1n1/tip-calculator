@@ -12,13 +12,13 @@
 </head>
 <body>
   <main>
-    <img src="images/logo.svg" alt="logo" class="logo">
+    <img src="/images/logo.svg" alt="logo" class="logo">
     <div class="container">
       <div class="calcDisplay">
         <div class="bill">
           <p class="billTitel">Bill</p>
           
-            <input type="text" id="inputBill"><img src="images/icon-dollar.svg" alt="icon-dollar" class="iconImg"></div>      
+            <input type="text" id="inputBill"><img src="/images/icon-dollar.svg" alt="icon-dollar" class="iconImg"></div>      
             
 
         <p class="selectTitel">Select Tip %</p>
@@ -54,16 +54,24 @@
           <p class="numbTitel">Number of People</p>  
            <p class="error">Can't be zero</p> 
 
-            <input type="text" id="inputPeople"><img src="images/icon-person.svg" alt="icon-person" class="iconImg"></div>
+            <input type="text" id="inputPeople"><img src="/images/icon-person.svg" alt="icon-person" class="iconImg"></div>
       </div>
   
 <div class="totalDisplay">
-  <div class="tipValue">Tip Amount<br>
-    <span>/ person</span></div>
 
-<div class="totalValue">Total<br>
-  <span>/ person</span>
-</div>
+  <div>
+    <label class="tipValue">Tip Amount<br>
+      <span>/ person</span></label>
+    <div id="totalPerPerson"></div>
+  </div>
+  
+  <div>
+    <label class="totalValue">Total<br>
+    <span>/ person</span></label>
+    <div id="total"></div>
+  </div>
+
+
   
 
   <button class="resetBtn">Reset</button>

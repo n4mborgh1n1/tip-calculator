@@ -97,7 +97,7 @@ main {
     height: 40px;
     border: none;
     border-radius: 5px;
-    background-color: hsl(180, 11%, 91%); 
+    background-color: hsla(180, 11%, 91%, 0.65);
     color: hsl(184, 14%, 56%);
     cursor: pointer;
     font-size: 20px;
@@ -119,7 +119,7 @@ main {
     border: none;
     border-radius: 5px;
     background-color: hsl(177, 89%, 44%);
-    margin: 11vh 0 0 5vh;
+    margin: 10vh 0 0 5vh;
     cursor: pointer;
 }
 
@@ -148,7 +148,7 @@ main {
     margin-bottom: 20px;
     border: none;
     border-radius: 5px;
-    background-color: hsl(180, 11%, 91%);   
+    background-color: hsla(180, 11%, 91%, 0.65);   
     text-align: end;
     padding-right: 10px;
 
@@ -163,8 +163,22 @@ main {
     right: 320px;
 }
 
-.tipValue, .totalValue {
-    margin: 50px 0 15px 30px;
+
+
+.tipValue {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.totalValue {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 30px;
 }
 
 span {
@@ -175,8 +189,26 @@ span {
     margin: -40px 0 15px 30vh;
     color: hsl(25, 97%, 53%);
     display: none;
+    padding: 0;
 }
 
+#totalPerPerson {
+    font-size: 42px;
+    color: hsl(177, 89%, 44%);
+    position: relative;
+    left: 25vh;
+    bottom: 1vh;
+  }
+  
+  #total {
+    font-size: 42px;
+    color: hsl(177, 89%, 44%);
+    position: relative;
+    left: 25vh;
+    bottom: 3.5vh;
+  }
+
+  
 
 
 
