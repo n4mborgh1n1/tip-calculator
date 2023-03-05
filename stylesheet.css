@@ -5,7 +5,7 @@ body {
 }
 
 .logo {
-    margin: 6vh 0 -11vh 90vh;
+    margin: 0vh 0 -8vh 90vh;
 }
 
 main {
@@ -14,13 +14,13 @@ main {
 
 .container {
     width: 115vh;
-    height: 60vh;
+    height: 63vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
     margin: auto;
-    transform: translateY(35%);
+    transform: translateY(25%);
     border-radius: 25px;
     box-shadow: 10px 10px 5px hsla(183, 100%, 15%, 0.443);
     gap: 25px;
@@ -29,7 +29,7 @@ main {
 
 .calcDisplay {
     width: 51vh;
-    height: 51vh;
+    height: 54vh;
     background-color: hsl(0, 0%, 100%);
     color: hsl(186, 14%, 43%);
     border-radius: 25px;
@@ -38,7 +38,7 @@ main {
 
 .totalDisplay {
     width: 51vh;
-    height: 51vh;
+    height: 54vh;
     display: block;
     justify-content: center;
     align-items: center;
@@ -48,11 +48,18 @@ main {
 
 }
 
+.ratingForm {
+    position: relative;
+    left: -35px;
+}
+
 #tipContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: repeat(3, 65px); 
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    gap: 15px;
     margin: 30px 0 30px 0;
 }
 
@@ -84,30 +91,27 @@ main {
     display: none;
   }
 
+
 .tip label:hover {
     background-color: hsl(25, 97%, 53%);
     transition: 0.5s background-color;
 }
 
 .tipCos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100px;
     height: 40px;
     border: none;
     border-radius: 5px;
     background-color: hsla(180, 11%, 91%, 0.65);
-    color: hsl(184, 14%, 56%);
+    color: hsl(183, 100%, 15%);
     cursor: pointer;
     font-size: 20px;
+    text-align: center;
     margin-left: 10px;
-}
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
 
-.tipCos input[type="radio"] {
-    display: none;
 }
-
 
 .resetBtn {
     width: 300px;
@@ -119,7 +123,7 @@ main {
     border: none;
     border-radius: 5px;
     background-color: hsl(177, 89%, 44%);
-    margin: 10vh 0 0 5vh;
+    margin: 11vh 0 0 5vh;
     cursor: pointer;
 }
 
@@ -151,19 +155,12 @@ main {
     background-color: hsla(180, 11%, 91%, 0.65);   
     text-align: end;
     padding-right: 10px;
-
-}
-
-#inputBill:active {
-  outline-color: hsl(177, 88%, 40%);
 }
 
 .iconImg {
     position: relative;
     right: 320px;
 }
-
-
 
 .tipValue {
     width: 300px;
