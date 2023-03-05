@@ -205,21 +205,4 @@ span {
     bottom: 3.5vh;
   }
 
-  @media only screen and (max-width: 700px) {
-
-    .container {
-    width: 50vh;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    margin: auto;
-    border-radius: 25px;
-    box-shadow: 10px 10px 5px hsla(183, 100%, 15%, 0.443);
-    gap: 25px;
-
-}
-    
-}
  
