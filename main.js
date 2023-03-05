@@ -4,6 +4,16 @@ const tipContainer = document.getElementById('tipContainer');
 const tipPercentages = [5, 10, 15, 25, 50];
 const totalPerPersonElement = document.getElementById('totalPerPerson');
 const totalElement = document.getElementById('total');
+const error = document.querySelector('.error');
+
+// error 
+inputPeople.addEventListener("input", function() {
+  if (inputPeople.value <= 0) {
+    error.style.display = "block";
+  } else {
+    error.style.display = "none";
+  }
+});
 
 // initialize tip percentage to 0%
 let tipPercentage = 0;
@@ -145,7 +155,7 @@ tipInput.addEventListener('input', function() {
   calculateTip();
 });
 
-// auto
+// automatisierung
 
 window.addEventListener('load', function() {
   resetBtn.click();
@@ -155,7 +165,7 @@ tipInput.addEventListener('blur', function() {
   tipInput.placeholder = 'Custom';
 });
 
-// gotta find a way to shorten
+// reset radiobutton color when input cutom tip
 
 const tipCos = document.querySelector('.tipCos');
 const tipLabels = document.querySelectorAll('.tip label');
@@ -168,10 +178,3 @@ tipCos.addEventListener('input', () => {
     tipLabels.forEach(label => label.style.backgroundColor = '');
   }
 });
-
-
-
-
-
-
-
