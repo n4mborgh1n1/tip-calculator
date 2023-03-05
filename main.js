@@ -145,9 +145,33 @@ tipInput.addEventListener('input', function() {
   calculateTip();
 });
 
+// auto
+
 window.addEventListener('load', function() {
   resetBtn.click();
 });
+
+tipInput.addEventListener('blur', function() {
+  tipInput.placeholder = 'Custom';
+});
+
+// gotta find a way to shorten
+
+const tipCos = document.querySelector('.tipCos');
+const tipLabels = document.querySelectorAll('.tip label');
+
+tipCos.addEventListener('input', () => {
+  if (tipCos.value) {
+    tipLabels.forEach(label => label.style.backgroundColor = 'hsl(183, 100%, 15%)');
+    tipLabels.forEach(label => label.style.color = 'white');
+  } else {
+    tipLabels.forEach(label => label.style.backgroundColor = '');
+  }
+});
+
+
+
+
 
 
 
