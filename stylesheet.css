@@ -101,13 +101,14 @@ main {
     width: 100px;
     height: 40px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    outline-offset: -5px;
     background-color: hsla(180, 11%, 91%, 0.65);
     color: hsl(183, 100%, 15%);
     cursor: pointer;
     font-size: 20px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 0px;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
 
