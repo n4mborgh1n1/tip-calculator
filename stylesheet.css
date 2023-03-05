@@ -121,7 +121,7 @@ main {
     border: none;
     border-radius: 5px;
     background-color: hsla(180, 11%, 91%, 0.65);
-    color: hsl(183, 100%, 15%);
+    color: hsl(183, 50%, 57%);
     cursor: pointer;
     font-size: 20px;
     margin-left: 10px;
@@ -220,4 +220,6 @@ span {
     bottom: 3.5vh;
   }
 
- 
+ ::placeholder {
+    color: hsl(184, 14%, 56%);
+ }
