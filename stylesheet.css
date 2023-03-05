@@ -79,8 +79,6 @@ main {
 
 }
 
-
-
 .tip input[type="radio"]:checked + label {
     color:hsl(183, 100%, 15%);
     background-color: hsl(177, 89%, 44%);
@@ -103,7 +101,7 @@ main {
     border: none;
     border-radius: 6px;
     outline-offset: -5px;
-    background-color: hsla(180, 11%, 91%, 0.65);
+    background-color: hsla(0, 0%, 45%, 0);
     color: hsl(183, 100%, 15%);
     cursor: pointer;
     font-size: 20px;
@@ -113,6 +111,22 @@ main {
     font-weight: 700;
 
 }
+
+.tipCosCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsla(180, 11%, 91%, 0.65);
+    color: hsl(183, 100%, 15%);
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 
 .resetBtn {
     width: 300px;
