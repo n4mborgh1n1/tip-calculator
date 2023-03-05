@@ -145,8 +145,9 @@ tipInput.addEventListener('input', function() {
   calculateTip();
 });
 
-
-
+window.addEventListener('load', function() {
+  resetBtn.click();
+});
 
 
 
