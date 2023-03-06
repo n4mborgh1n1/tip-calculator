@@ -4,9 +4,12 @@ body {
     font-weight: 700;
 }
 
-.logo {
-    margin: 0vh 0 -8vh 90vh;
-}
+.logo { 
+    display: block;
+    margin: 0 auto;
+    transform: translateY(60%);
+
+  }  
 
 main {
     transform: scale(0.9);
@@ -19,8 +22,8 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    margin: auto;
-    transform: translateY(25%);
+    margin: 0 auto;
+    transform: translateY(20%);
     border-radius: 25px;
     box-shadow: 20px 20px 4px hsla(183, 100%, 15%, 0.443);
     gap: 25px;
@@ -222,4 +225,224 @@ span {
 
  ::placeholder {
     color: hsl(184, 14%, 56%);
+ }
+
+ @media only screen and (max-width: 867px) {
+
+
+
+main {
+transform: scale(1);
+overflow-x: hidden;
+}
+
+.logo {
+    transform: translateY(70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+width: 100%;
+height: 100vh;
+transform: translateY(15%);
+margin: 0 auto;
+display: inline-block;
+margin: ;
+}
+
+.calcDisplay {
+width: 90vw;
+height: 70vh;
+background-color: rgb(255, 255, 255);
+margin: 2rem 0 5rem 1.8rem;
+
+}
+
+.totalDisplay {
+width: 90vw;
+height: 40vh;
+margin: 0 0 0 1rem;
+}
+
+.ratingForm {
+position: relative;
+left: -50px;
+}
+
+#tipContainer {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: repeat(2, 100px); 
+    grid-template-rows: repeat(2, 25px);
+    gap: 4rem;
+    margin: 30px 0 30px 0;
+}
+
+.tip label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 4rem;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    cursor: pointer;
+    font-size: 32px;
+    margin-left: -1rem;
+
+
+}
+
+.tip input[type="radio"]:checked + label {
+    color:hsl(183, 100%, 15%);
+    background-color: hsl(177, 89%, 44%);
+    transition: none; 
+  }
+
+.tip input[type="radio"] {
+    display: none;
+  }
+
+
+.tip label:hover {
+    background-color: hsl(25, 97%, 53%);
+    transition: 0.5s background-color;
+}
+
+.tipCos {
+    width: 14rem;
+    height: 4rem;
+    border: none;
+    border-radius: 6px;
+    outline-offset: -5px;
+    background-color: hsla(0, 0%, 45%, 0);
+    color: hsl(183, 100%, 15%);
+    cursor: pointer;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+
+}
+
+.tipCosCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: hsla(180, 11%, 91%, 0.65);
+    color: hsl(183, 50%, 57%);
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -15px;
+}
+
+
+.resetBtn {
+    width: 300px;
+    height: 45px;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(177, 89%, 44%);
+    margin: 11vh 0 0 5vh;
+    cursor: pointer;
+}
+
+.resetBtn:hover {
+    background-color: hsl(180, 100%, 80%);
+    transition: 0.5s background-color;
+}
+
+.selectTitel{
+    margin: 10px 0 40px 15px;
+    font-size: 18px;
+
+}
+
+.numbTitel, .billTitel {
+    margin-left: 15px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#inputBill, #inputPeople{
+    width: 30rem;
+    height: 3.5rem;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsla(180, 11%, 91%, 0.65);   
+    text-align: end;
+    padding-right: 10px;
+}
+
+.iconImg {
+    position: relative;
+    right: 470px;
+}
+
+.tipValue {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.totalValue {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+span {
+   color: hsl(184, 14%, 56%);
+}
+
+.error {
+    margin: -40px 0 15px 30vh;
+    color: hsl(25, 97%, 53%);
+    display: none;
+    padding: 0;
+}
+
+#totalPerPerson {
+    font-size: 42px;
+    color: hsl(177, 89%, 44%);
+    position: relative;
+    left: 25vh;
+    bottom: 1vh;
+  }
+  
+  #total {
+    font-size: 42px;
+    color: hsl(177, 89%, 44%);
+    position: relative;
+    left: 25vh;
+    bottom: 3.5vh;
+  }
+
+ ::placeholder {
+    color: hsl(184, 14%, 56%);
+ }
+    
  }
