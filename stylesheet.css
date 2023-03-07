@@ -250,6 +250,8 @@ transform: translateY(15%);
 margin: 0 auto;
 display: inline-block;
 margin: ;
+overflow-x: hidden;
+
 }
 
 .calcDisplay {
