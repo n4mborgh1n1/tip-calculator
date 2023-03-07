@@ -233,7 +233,7 @@ span {
 
 main {
 transform: scale(1);
-overflow-x: hidden;
+overflow: hidden;
 }
 
 .logo {
