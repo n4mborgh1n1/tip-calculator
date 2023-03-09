@@ -227,13 +227,13 @@ span {
     color: hsl(184, 14%, 56%);
  }
 
- @media only screen and (max-width: 667px) {
+ @media only screen and (max-width: 867px) {
 
 
 
-main {
+body {
 transform: scale(1);
-overflow: hidden;
+overflow-y: hidden;
 }
 
 .logo {
@@ -251,7 +251,6 @@ margin: 0 auto;
 display: inline-block;
 margin: ;
 overflow-x: hidden;
-
 }
 
 .calcDisplay {
