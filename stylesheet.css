@@ -227,13 +227,10 @@ span {
     color: hsl(184, 14%, 56%);
  }
 
- @media only screen and (max-width: 867px) {
-
-
+@media only screen and (max-width: 867px) {
 
 body {
-transform: scale(1);
-overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -245,9 +242,9 @@ overflow-x: hidden;
 }
 .container {
 width: 100%;
-height: 135vh;
+height: 140vh;
 transform: translateY(15%);
-margin: -15vh auto;
+margin: -14vh auto;
 display: inline-block;
 overflow: hidden;
 box-shadow: none;
@@ -255,9 +252,9 @@ box-shadow: none;
 
 .calcDisplay {
 width: 90vw;
-height: 70vh;
+height: 80vh;
 background-color: rgb(255, 255, 255);
-margin: 2rem 0 5rem 1.8rem;
+margin: 2rem 0 2rem 1.8rem;
 
 }
 
@@ -277,7 +274,7 @@ left: -50px;
     justify-content: space-evenly;
     align-items: center;
     grid-template-columns: repeat(2, 100px); 
-    grid-template-rows: repeat(2, 25px);
+    grid-template-rows: repeat(3, 25px);
     gap: 4rem;
     margin: 30px 0 30px 0;
 }
@@ -367,14 +364,14 @@ left: -50px;
 }
 
 .selectTitel{
-    margin: 10px 0 40px 15px;
+    margin: 40px 0 40px 15px;
     font-size: 18px;
 
 }
 
 .numbTitel, .billTitel {
     margin-left: 15px;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 18px;
 }
 
@@ -393,6 +390,7 @@ left: -50px;
     text-align: end;
     padding-right: 10px;
 }
+
 
 .iconImg {
     position: relative;
