@@ -290,7 +290,7 @@ left: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 14rem;
+    width: 225%;
     height: 4rem;
     border: none;
     border-radius: 10px;
@@ -339,7 +339,7 @@ left: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 14rem;
+    width: 225%;
     height: 4rem;
     border: none;
     border-radius: 5px;
@@ -371,19 +371,25 @@ left: -50px;
 }
 
 .selectTitel{
-    margin: 30px 0 40px 15px;
+    margin: 40px 0 40px -10px;
     font-size: 18px;
 
 }
 
-.numbTitel, .billTitel {
-    margin-left: 15px;
-    margin-top: 40px;
+.billTitel {
+    margin-left: -10px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.numbTitel {
+    margin-top: 60px;
+    margin-left: -10px;
     font-size: 18px;
 }
 
 #inputBill, #inputPeople{
-    width: 30rem;
+    width: 90%;
     height: 3.5rem;
     font-size: 24px;
     color: hsl(183, 100%, 15%);
