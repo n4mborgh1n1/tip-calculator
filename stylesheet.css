@@ -280,8 +280,8 @@ left: -50px;
     display: grid;
     justify-content: space-evenly;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 225px); 
+    grid-template-rows: repeat(3, 70px);
     margin: 30px 0;
 }
 
