@@ -283,6 +283,7 @@ left: -50px;
     grid-template-columns: repeat(2, 225px); 
     grid-template-rows: repeat(3, 70px);
     margin: 0 auto;
+
 }
 
 .tip label {
@@ -344,7 +345,7 @@ left: -50px;
     color: hsl(183, 50%, 57%);
     cursor: pointer;
     font-size: 20px;
-    transform: translate(50%);
+    transform: translate(20%);
 }
 
 
@@ -386,7 +387,7 @@ left: -50px;
 }
 
 #inputBill, #inputPeople{
-    width: 98%;
+    width: 96%;
     height: 3.5rem;
     font-size: 24px;
     color: hsl(183, 100%, 15%);
