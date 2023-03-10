@@ -282,7 +282,7 @@ left: -50px;
     align-items: center;
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(3, 1fr);
-    margin: 30px 0 30px 0;
+    margin: 30px 0;
 }
 
 .tip label {
@@ -297,9 +297,7 @@ left: -50px;
     color: white;
     cursor: pointer;
     font-size: 32px;
-    margin-left: 2rem;
-
-
+    margin-left: 3rem;
 }
 
 .tip input[type="radio"]:checked + label {
@@ -346,7 +344,7 @@ left: -50px;
     color: hsl(183, 50%, 57%);
     cursor: pointer;
     font-size: 20px;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 
