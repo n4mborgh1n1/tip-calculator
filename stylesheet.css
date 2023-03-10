@@ -245,7 +245,7 @@ body {
 
 .container {
 width: 100%;
-height: 140vh;
+height: 145vh;
 transform: translateY(15%);
 margin: -14vh 0 0 -5vh;
 display: inline-block;
@@ -259,7 +259,7 @@ padding: 0 35px 0 35px;
 
 .calcDisplay {
 width: 90vw;
-height: 80vh;
+height: 90vh;
 background-color: rgb(255, 255, 255);
 margin: 2rem 0 2rem 1.8rem;
 
@@ -268,7 +268,7 @@ margin: 2rem 0 2rem 1.8rem;
 .totalDisplay {
 width: 90vw;
 height: 40vh;
-margin: 4rem 0 0 1.3rem;
+margin: -1.5rem 0 0 1.5rem;
 }
 
 .ratingForm {
@@ -278,7 +278,7 @@ left: -50px;
 
 #tipContainer {
     display: grid;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     grid-template-columns: repeat(2, 225px); 
     grid-template-rows: repeat(3, 70px);
@@ -317,7 +317,7 @@ left: -50px;
 }
 
 .tipCos {
-    width: 14rem;
+    width: 10rem;
     height: 4rem;
     border: none;
     border-radius: 6px;
@@ -336,7 +336,7 @@ left: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 75%;
     height: 4rem;
     border: none;
     border-radius: 5px;
