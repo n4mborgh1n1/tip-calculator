@@ -227,7 +227,7 @@ span {
     color: hsl(184, 14%, 56%);
  }
 
-@media only screen and (max-width: 867px) {
+@media only screen and (max-width: 867px) { /* responsive for iphone12 only yet cuz IM STILL STRUGGLING TOAWTAWJRFWJQRFQ"$"$ >:( */
 
 body {
     overflow-x: hidden;
@@ -282,7 +282,7 @@ left: -50px;
     align-items: center;
     grid-template-columns: repeat(2, 225px); 
     grid-template-rows: repeat(3, 70px);
-    margin: 30px 0;
+    margin: 0 auto;
 }
 
 .tip label {
@@ -297,7 +297,7 @@ left: -50px;
     color: white;
     cursor: pointer;
     font-size: 32px;
-    margin-left: 3rem;
+    transform: translate(50%);
 }
 
 .tip input[type="radio"]:checked + label {
@@ -344,12 +344,12 @@ left: -50px;
     color: hsl(183, 50%, 57%);
     cursor: pointer;
     font-size: 20px;
-    margin-left: 3rem;
+    transform: translate(50%);
 }
 
 
 .resetBtn {
-    width: 85%;
+    width: 84%;
     height: 6.2vh;
     font-family: 'Space Mono', monospace;
     font-size: 20px;
