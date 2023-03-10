@@ -227,7 +227,7 @@ span {
     color: hsl(184, 14%, 56%);
  }
 
-@media only screen and (max-width: 867px) { /* responsive for iphone12 only yet cuz IM STILL STRUGGLING TOAWTAWJRFWJQRFQ"$"$ >:( */
+@media only screen and (max-width: 867px) { 
 
 body {
     overflow-x: hidden;
@@ -303,7 +303,7 @@ left: -50px;
 .tip input[type="radio"]:checked + label {
     color:hsl(183, 100%, 15%);
     background-color: hsl(177, 89%, 44%);
-    transition: none; 
+    transition: none;
   }
 
 .tip input[type="radio"] {
@@ -386,7 +386,7 @@ left: -50px;
 }
 
 #inputBill, #inputPeople{
-    width: 100%;
+    width: 98%;
     height: 3.5rem;
     font-size: 24px;
     color: hsl(183, 100%, 15%);
@@ -400,9 +400,6 @@ left: -50px;
     text-align: end;
     padding-right: 20px;
 }
-
-
-
 
 .iconImg {
     position: relative;
