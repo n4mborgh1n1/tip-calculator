@@ -25,7 +25,7 @@ main {
     margin: 0 auto;
     transform: translateY(20%);
     border-radius: 25px;
-    box-shadow: 20px 20px 4px hsla(183, 100%, 15%, 0.443);
+    box-shadow: 20px 20px 40px hsla(183, 100%, 15%, 0.443);
     gap: 25px;
 
 }
