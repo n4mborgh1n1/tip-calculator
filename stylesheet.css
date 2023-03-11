@@ -339,7 +339,7 @@ left: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 95%;
     height: 4rem;
     border: none;
     border-radius: 5px;
@@ -347,7 +347,7 @@ left: -50px;
     color: hsl(183, 50%, 57%);
     cursor: pointer;
     font-size: 20px;
-    transform: translate(25%);
+    transform: translate(20%);
 }
 
 
@@ -441,7 +441,7 @@ span {
     font-size: 42px;
     color: hsl(177, 89%, 44%);
     position: relative;
-    left: 25vh;
+    left: 65%;
     bottom: 1vh;
   }
   
@@ -449,12 +449,9 @@ span {
     font-size: 42px;
     color: hsl(177, 89%, 44%);
     position: relative;
-    left: 25vh;
+    left: 65%;
     bottom: 3.5vh;
   }
 
- ::placeholder {
-    color: hsl(184, 14%, 56%);
- }
-    
+
  }
